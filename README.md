@@ -25,6 +25,7 @@ OSINToolkit is an Open source intelligence toolkit for Reconnaissance phase of p
 
 - git clone https://github.com/IndrasenaReddyDevireddy/OSINToolkit.git
 - cd OSINToolkit
+- pip install -r requirements.txt
 - python3 OSINToolkit.py
 
 # Drop a star for this tool.
