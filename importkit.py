@@ -1,9 +1,9 @@
-from Url_Info import urlinfo
+from URL_Redirection import urlinfo
 from iplocator import iplocate
 from UrlLookup import Links
 from NameInfo import Name
 from Subdomain import fuzz
-from DNS_Enum import dns
+from DNS_Enum import DNS
 
 cyan="\033[1;36;40m"
 green="\033[1;32;40m"

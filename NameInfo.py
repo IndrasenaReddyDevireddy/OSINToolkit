@@ -11,7 +11,7 @@ Y = "\033[1;33;40m"
 
 
 def validate_name(name):
-    return re.match("^[a-zA-Z]+$", name)
+    return re.match("^[ a-zA-Z]+$", name)
 
 
 def Name():
@@ -25,7 +25,6 @@ def Name():
     elif not validate_name(name):
         print(red + "Invalid input. Enter only names.")
         Name()
-
     headers = {
         'Access-Control-Allow-Origin': '*',
         'Access-Control-Allow-Methods': 'GET',

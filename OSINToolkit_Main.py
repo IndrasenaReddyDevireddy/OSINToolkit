@@ -19,7 +19,7 @@ def Main():
         elif inp == "5":
             importkit.fuzz()
         elif inp == "6":
-            importkit.dns()
+            importkit.DNS()
         elif inp == "exit":
             exit()
         else:
